@@ -30,9 +30,10 @@ function TypeaheadSearch() {
     };
 
     return (
-        <div className="row mb-3">
-            <label htmlFor="inputSearch" className="col-sm-2 col-form-label">Search</label>
-            <div className="col-sm-10">
+        <div className="row mb-3 mt-5">
+             <div className="col-sm-3"></div>
+            <label htmlFor="inputSearch" className="col-sm-1 col-form-label">Search</label>
+            <div className="col-sm-4">
                 <div
                     style={{
                         display: isNameSelected ? "block" : "none",
